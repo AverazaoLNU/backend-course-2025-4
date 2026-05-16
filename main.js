@@ -16,7 +16,7 @@ program.parse(process.argv);
 const options = program.opts();
 
 if (!options.input) {
-  console.error("Please, specify the input file");
+  console.error("Cannot find input file");
   process.exit(1);
 }
 
